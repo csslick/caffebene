@@ -1,0 +1,92 @@
+*{ 
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul{ list-style-type: none;}
+a{ text-decoration: none;}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+.img_responsive{ width: 100%;}
+section {
+  padding: 60px 0;
+}
+section h2{
+  font-size: 30px;
+}
+
+#main_header{}
+#visual{
+  padding-bottom: 0;
+}
+
+#bridge_visual1{
+  height: 500px;
+  background: url('http://placeimg.com/1200/500/nature');
+  background-size: cover;
+  padding-top: 0;
+}
+#bridge_visual2{
+  height: 500px;
+  background: url('http://placeimg.com/1200/500/nature/1');
+  background-size: cover;
+  padding-top: 0;
+}
+
+#products {
+}
+#menu_list { 
+  overflow: hidden;
+  background: #ccc;
+}
+#menu_list li{
+  float: left;
+  outline: 1px solid green;
+  text-align: center;
+}
+#menu_list li img{ width: 100%;}
+#menu_list li:nth-child(1) {
+  width: 500px; height: 500px;
+}
+#menu_list li:nth-child(2) {
+  width: 250px; height: 250px;
+}
+#menu_list li:nth-child(3) {
+  width: 450px; height: 250px;
+}
+#menu_list li:nth-child(4) {
+  width: 450px; height: 250px;
+}
+#menu_list li:nth-child(5) {
+  width: 250px; height: 250px;
+  background: #999;
+}
+
+#bottom_menu{
+  background: #999;
+}
+
+#main_footer {
+  position: relative;
+  background: #1e1e1e;
+  color: #666;
+  padding: 60px 0;
+  font-size: 14px;
+}
+
+#main_footer h2{ margin-bottom: 1em;}
+#main_footer ul, 
+#main_footer address,
+#main_footer .copy { margin-bottom: 1em;}
+
+#btn_top {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  display: block;
+  width: 50px; height: 50px;
+  background: #fff;
+  border-radius: 50%;
+}
